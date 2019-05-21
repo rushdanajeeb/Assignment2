@@ -1,0 +1,42 @@
+{
+  "name": "customers",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "default": "null"
+    },
+    "email": {
+      "type": "string",
+      "required": true,
+      "default": "null"
+    },
+    "noOfTickects": {
+      "type": "number",
+      "required": true
+    },
+    "bookingId": {
+      "type": "string",
+      "required": true,
+      "default": "null"
+    },
+    "NIC": {
+      "type": "string",
+      "default": "null"
+    },
+    "paymentId": {
+      "type": "string",
+      "required": true,
+      "default": "null"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,58 @@
+{
+  "name": "train",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "default": "null"
+    },
+    "class": {
+      "type": "string",
+      "required": true,
+      "default": "null"
+    },
+    "seats": {
+      "type": "number",
+      "required": true,
+      "default": 0
+    },
+    "availableSeats": {
+      "type": "number",
+      "required": true,
+      "default": 0
+    },
+    "bookedSeats": {
+      "type": "number",
+      "required": true,
+      "default": 0
+    },
+    "time": {
+      "type": "date",
+      "required": true
+    },
+    "price": {
+      "type": "number",
+      "required": true,
+      "default": 0
+    },
+    "startStation": {
+      "type": "string",
+      "required": true,
+      "default": "null"
+    },
+    "endStation": {
+      "type": "string",
+      "required": true,
+      "default": "null"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
